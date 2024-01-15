@@ -20,7 +20,9 @@ Description: Allows players of FiveM (which allows custom online servers for GTA
  - Download the latest release from the releases page. 
  - Put the **folder  *with the files inside*** called "86x-indicatorcontrols" inside of your cfx-server-data/resources/ folder
  - In your resources.cfg (or if you don't have this file, then in your server.cfg) add a new line containing this:
-> ensure 86x-indicatorcontrols
+```
+ensure 86x-indicatorcontrols
+```
 
 ## Usage
 When using the default configuration you can toggle the indicators like this:
@@ -32,9 +34,11 @@ When using the default configuration you can toggle the indicators like this:
 
  - Go into this folder in your server: cfx-server-data/resources/86x-indicatorcontrols/ and open the file fxmanifest.lua
  - Change the numeric values inside of the quotes in these three lines (not the ones starting with "--"):
-> control_indicator_left  "174"
-> control_indicator_right  "175"
-> control_indicator_hazardlights  "172"
+```
+control_indicator_left  "174"
+control_indicator_right  "175"
+control_indicator_hazardlights  "172"
+```
 - Change these values to your desire. Get values for other key controls here: [https://docs.fivem.net/docs/game-references/controls/](https://docs.fivem.net/docs/game-references/controls/)
 
 ## Please note
