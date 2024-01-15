@@ -6,6 +6,7 @@ description 'Allows players to control the indicators of vehicles that support t
 version '1.0.0'
 
 client_script 'client/cl_indicatorcontrol.lua'
+server_script 'server/sv_indicatorcontrol.lua'
 
 -- Modify the values below to change the control buttons
 -- Lines starting with -- are a comment and are not considered by the script
