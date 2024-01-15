@@ -36,7 +36,9 @@ When using the default configuration you can toggle the indicators like this:
  - Change the numeric values inside of the quotes in these three lines (not the ones starting with "--"):
 ```
 control_indicator_left  "174"
+
 control_indicator_right  "175"
+
 control_indicator_hazardlights  "172"
 ```
 - Change these values to your desire. Get values for other key controls here: [https://docs.fivem.net/docs/game-references/controls/](https://docs.fivem.net/docs/game-references/controls/)
